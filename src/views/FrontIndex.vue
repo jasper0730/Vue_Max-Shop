@@ -1,5 +1,5 @@
 <template>
-  <div
+  <!-- <div
     id="carouselExampleControls"
     class="carousel slide"
     data-bs-ride="carousel"
@@ -63,7 +63,8 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
-  </div>
+  </div> -->
+  <BannerSlide></BannerSlide>
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-md-6 text-center">
@@ -134,9 +135,11 @@
 
 <script>
 import HotSlide from "@/components/HotSlide.vue";
+import BannerSlide from '../components/BannerSlide.vue';
 export default {
   components: {
     HotSlide,
+    BannerSlide,
   },
 };
 </script>

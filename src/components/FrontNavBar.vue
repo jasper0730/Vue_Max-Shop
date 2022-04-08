@@ -1,15 +1,17 @@
 <template>
   <div class="sticky-top bg-light">
     <nav class="container navbar navbar-expand-lg navbar-light">
-      <router-link class="logo navbar-brand fs-1" to="/" @click="closeNavHam">Max</router-link>
+      <router-link class="logo navbar-brand fs-1" to="/" @click="closeNavHam"
+        >Max</router-link
+      >
       <button
         class="navbar-toggler"
         type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNavAltMarkup"
+       
         aria-controls="navbarNavAltMarkup"
         aria-expanded="false"
         aria-label="Toggle navigation"
+        @click="toggleNavHam"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -25,17 +27,27 @@
             @click="closeNavHam"
             >品牌</router-link
           >
-          <router-link class="nav-item nav-link me-3 h5" to="/products" @click="closeNavHam"
+          <router-link
+            class="nav-item nav-link me-3 h5"
+            to="/products"
+            @click="closeNavHam"
             >香氛蠟燭</router-link
           >
-          <router-link class="nav-item nav-link me-3 h5" to="/questions" @click="closeNavHam"
+          <router-link
+            class="nav-item nav-link me-3 h5"
+            to="/questions"
+            @click="closeNavHam"
             >常見問題</router-link
           >
-          <router-link class="nav-item nav-link me-3 d-lg-none h5" to="/carts" @click="closeNavHam"
+          <router-link
+            class="nav-item nav-link me-3 d-lg-none h5"
+            to="/carts"
+            @click="closeNavHam"
             >購物車</router-link
           >
           <router-link
-            class="nav-item nav-link position-relative d-none d-lg-block h5" @click="closeNavHam"
+            class="nav-item nav-link position-relative d-none d-lg-block h5"
+            @click="closeNavHam"
             to="/carts"
             ><i class="bi bi-bag fs-5"
               ><span

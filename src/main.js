@@ -1,6 +1,6 @@
 import { createApp } from "vue";
 //bootstrap
-import 'bootstrap';
+// import 'bootstrap';
 import 'bootstrap-icons/font/bootstrap-icons.scss';
 //axios
 import axios from 'axios';
