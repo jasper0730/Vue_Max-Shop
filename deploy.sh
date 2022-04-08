@@ -17,9 +17,9 @@ git add -A
 git commit -m 'deploy'
 
 # 部署到 https://<USERNAME>.github.io
-# git push -f git@github.com:jasper0730/jasper0730.github.io.git main
+# git push -f git@github.com:jasper0730/jasper0730.github.io.git main:gh-pages
 
 # 部署到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:jasper0730/Vue_Max-candle-shop.git main:gh-pages
+git push -f git@github.com:jasper0730/Vue_Max-shop.git main:gh-pages
 
 cd -
